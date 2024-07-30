@@ -1,1 +1,4 @@
-docker.dragonflydb.io/dragonflydb/dragonfly
+dragonflyoss/scheduler:2.1.52
+dragonflyoss/manager:2.1.52
+dragonflyoss/client:2.1.52
+dragonflyoss/dfinit:2.1.52
