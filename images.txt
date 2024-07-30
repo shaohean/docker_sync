@@ -3,3 +3,5 @@ mysql:8
 jenkins/jenkins:2.346.3
 nvidia/cuda:12.2.2-cudnn8-runtime-ubi8
 python:3.9.10
+docker.dragonflydb.io/dragonflydb/dragonfly
+docker.dragonflydb.io/dragonflydb/dragonfly:1.20.1
