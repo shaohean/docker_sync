@@ -1,15 +1,1 @@
-continuumio/anaconda3:2024.06-1
-continuumio/anaconda3:2024.02-1
-continuumio/anaconda3:2023.09-0
-continuumio/anaconda3:2023.07-1
-continuumio/anaconda3:2023.03-1
-continuumio/anaconda3:2022.10
-continuumio/anaconda3:2022.05
-continuumio/anaconda3:2021.11
-continuumio/anaconda3:2021.05
-continuumio/anaconda3:2021.04
-continuumio/anaconda3:2020.11
-continuumio/anaconda3:2020.07
-continuumio/anaconda3:2020.02
-continuumio/anaconda3:2019.10
-continuumio/anaconda3:2019.07
+golang:1.14.15
