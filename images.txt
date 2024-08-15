@@ -1,1 +1,1 @@
-registry.gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/7-3-0
+registry.gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate:latest-centos
