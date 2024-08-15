@@ -1,1 +1,1 @@
-golang:1.14.15
+registry.gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/7-3-0
