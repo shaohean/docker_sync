@@ -1,2 +1,2 @@
-registry.gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate:latest-centos
-registry.gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate:rolling-centos
+gitlab/gitlab-ce
+gitlab/gitlab-ee
