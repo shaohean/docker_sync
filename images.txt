@@ -1,8 +1,5 @@
 redis:7.4
-redis:7.3
 redis:7.2
-redis:7.1
 redis:7.0
-redis:6.1
 redis:6.2
 redis:6.0
