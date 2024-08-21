@@ -1,2 +1,10 @@
-gitlab/gitlab-ce
-gitlab/gitlab-ee
+python:3.3-alpine
+python:3.4-alpine
+python:3.5-alpine
+python:3.6-alpine
+python:3.7-alpine
+python:3.8-alpine
+python:3.9-alpine
+python:3.10-alpine
+python:3.11-alpine
+python:3.12-alpine
