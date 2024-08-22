@@ -1,5 +1,1 @@
-redis:7.4
-redis:7.2
-redis:7.0
-redis:6.2
-redis:6.0
+velero/velero-plugin-for-aws:latest
