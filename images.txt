@@ -1,4 +1,1 @@
-sonatype/nexus3:3.71.0
-sonatype/nexus3:3.70.0
-sonatype/nexus3:3.69.0
-sonatype/nexus3:3.68.0
+verdaccio/verdaccio
