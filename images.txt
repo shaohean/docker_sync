@@ -1,1 +1,1 @@
-nginx --platform=arm64
+nginx --platform linux/arm64
