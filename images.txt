@@ -1,1 +1,1 @@
-verdaccio/verdaccio
+nacos/nacos:2.4.1
