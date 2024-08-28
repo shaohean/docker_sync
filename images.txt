@@ -1,1 +1,2 @@
-nginx --platform linux/arm64
+tomcat
+tomcat:v8.5.86
