@@ -135,7 +135,10 @@ jobs:
                   name_space_prefix="${name_space}_"
                fi
             fi
-            
+            echo "显示列表"
+            curl -s 'https://registry.hub.docker.com/v2/repositories/library/$image_name/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'
+            echo "显示列表"
+
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
