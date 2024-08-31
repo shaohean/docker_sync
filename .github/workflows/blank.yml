@@ -59,6 +59,10 @@ jobs:
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         # 数据预处理,判断镜像是否重名
+        echo "显示列表"
+        declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/library/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name')
+        declare -p list |'NR == 1 {print substr($0, match($0, /\"/)+1)} NR > 1 {if (NR != last_line) print $0; else print substr($0, 1, length-3)} {last_line=NR} END{print}'
+        echo "显示列表"
         declare -A duplicate_images
         declare -A temp_map
         while IFS= read -r line || [ -n "$line" ]; do
@@ -97,7 +101,7 @@ jobs:
                 temp_map[$image_name]=$name_space
             fi       
         done < images.txt
-        
+
         
         while IFS= read -r line || [ -n "$line" ]; do
             # 忽略空行与注释
@@ -135,10 +139,6 @@ jobs:
                   name_space_prefix="${name_space}_"
                fi
             fi
-            echo "显示列表"
-            list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/library/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name')
-            echo $list
-            echo "显示列表"
 
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
