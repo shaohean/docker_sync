@@ -61,7 +61,7 @@ jobs:
         # 数据预处理,判断镜像是否重名
         echo "显示列表"
         declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/library/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/library/'$image_name'/tags/?page_size=100' )
-        declare -p list |'NR == 1 {print substr($0, match($0, /\"/)+1)} NR > 1 {if (NR != last_line) print $0; else print substr($0, 1, length-3)} {last_line=NR} END{print}'
+        declare -p list |awk 'NR == 1 {print substr($0, match($0, /\"/)+1)} NR > 1 {if (NR != last_line) print $0; else print substr($0, 1, length-3)} {last_line=NR} END{print}'
         echo "显示列表"
         declare -A duplicate_images
         declare -A temp_map
