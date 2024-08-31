@@ -136,7 +136,8 @@ jobs:
                fi
             fi
             echo "显示列表"
-            #curl -s 'https://registry.hub.docker.com/v2/repositories/library/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'
+            list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/library/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name')
+            echo $list
             echo "显示列表"
 
             # 将@sha256:等字符删除
