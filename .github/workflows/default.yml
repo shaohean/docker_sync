@@ -88,6 +88,8 @@ jobs:
             echo "显示列表"
             declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
             declare -p list |awk 'NR == 1 {print substr($0, 24)} NR>1 {print}'
+            echo -e $list
+            echo "显示列表"
             # 如果镜像存在于数组中，则添加temp_map
             if [[ -n "${temp_map[$image_name]}" ]]; then
                  # 如果temp_map已经存在镜像名，判断是不是同一命名空间
