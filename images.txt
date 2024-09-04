@@ -1,4 +1,1 @@
-multiarch/qemu-user-static:x86_64-aarch64_be-7.2.0-1
-multiarch/qemu-user-static:x86_64-aarch64_be
-multiarch/qemu-user-static:x86_64-aarch64-7.2.0-1
-multiarch/qemu-user-static:x86_64-aarch64
+ack-agility-registry.cn-shanghai.cr.aliyuncs.com/ecp_builder/cnstack-ce:v2-1-0-ce-4
