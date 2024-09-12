@@ -1,1 +1,1 @@
-ghcr.io/ansible-community/community-ee-base:latest
+ingress-nginx/controller
