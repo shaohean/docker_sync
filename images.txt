@@ -1,1 +1,4 @@
-apache/kafka:2.3.0
+apache/kafka:3.7.0
+apache/kafka:3.7.1
+apache/kafka:3.8.0
+apache/kafka:3.9.0-rc0
