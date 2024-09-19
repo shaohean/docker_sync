@@ -86,7 +86,7 @@ jobs:
             echo "image_name: $image_name"
             
             echo "显示列表"
-            declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq '.results[] |  select(.images[].architecture == "amd64" or .images[].architecture == "arm64") | "\(.name) : \(.images[].architecture)"'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
+            declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq -r '.results[] |  select(.images[].architecture == "amd64" or .images[].architecture == "arm64") | "\(.name) : \(.images[].architecture)"'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
             #declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
             #declare -p list |awk 'NR == 1 {print substr($0, 24)} NR>1 {print}'
             for i in ${list[@]};do echo ${i} ; done;
