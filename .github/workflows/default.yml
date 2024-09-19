@@ -77,7 +77,7 @@ jobs:
             image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
             echo "image_name_tag $image_name_tag"
             # 获取命名空间 例如kasmweb,  这里有种特殊情况 docker.io/nginx，把docker.io当成命名空间，也OK
-            name_space1=$(echo "$image" | awk -F'/' '{if (NF==3) print $2; else if (NF==2) print $1; else print ""}')
+            name_space1=$(echo "$image" | awk -F'/' '{if (NF==3) print $2; else if (NF==2) print $1; else print "library"}')
             echo "name_space: $name_space1"
             # 这里不要是空值影响判断
             name_space="${name_space1}_"
@@ -86,7 +86,8 @@ jobs:
             echo "image_name: $image_name"
             
             echo "显示列表"
-            declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
+            declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq '.results[] | {name: .name, architectures: [.images[].architecture]}'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
+            #declare -a list=$(curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' | jq '.results[] | select(.images[].architecture == "amd64") | .name'  2>/dev/null || curl -s 'https://registry.hub.docker.com/v2/repositories/'$name_space1'/'$image_name'/tags/?page_size=100' )
             #declare -p list |awk 'NR == 1 {print substr($0, 24)} NR>1 {print}'
             for i in ${list[@]};do echo ${i} ; done;
             echo "显示列表"
