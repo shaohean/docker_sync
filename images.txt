@@ -1,1 +1,11 @@
-drone/drone:2
+drone/drone-runner-docker:1
+plugins/docker
+drone/git
+cschlosser/drone-ftps
+plugins/kaniko
+danielgormly/drone-plugin-kube:0.0.1
+vallard/drone-kube
+danielgormly/drone-plugin-kube:0.0.1
+quay.io/honestbee/drone-kubernetes
+zc2638/drone-k8s-plugin
+aosapps/drone-sonar-plugin
