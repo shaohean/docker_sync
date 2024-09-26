@@ -1,1 +1,1 @@
-thegeeklab/drone-docker-buildx:23
+thegeeklab/drone-docker-buildx:24.1.3
