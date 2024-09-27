@@ -1,1 +1,1 @@
-thegeeklab/drone-docker-buildx:24.1.3
+dpage/pgadmin4
