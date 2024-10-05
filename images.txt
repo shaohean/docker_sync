@@ -1,1 +1,1 @@
-openrestry/openrestry
+openresty/openresty
