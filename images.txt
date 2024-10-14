@@ -1,4 +1,2 @@
---platform=arm64 python:3.12
---platform=arm64 python:3.12-alpine
---platform=arm64 milvusdb/milvus:v2.2.11
+--platform=arm64 milvusdb/milvus:v2.4.13
 --platform=arm64 minio/minio:RELEASE.2023-03-20T20-16-18Z
