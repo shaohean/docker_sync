@@ -1,7 +1,2 @@
-rabbitmq:4.0.2
-rabbitmq:3.12.14
-rabbitmq:3.13.7
-rabbitmq:3
-rabbitmq:4.0.1
-rabbitmq:4.0.0
-rabbitmq:3.13.6
+milvusdb/milvus:v2.4.13
+milvusdb/milvus:v2.4.13-hotfix
