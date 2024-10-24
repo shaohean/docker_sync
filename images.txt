@@ -1,2 +1,3 @@
-milvusdb/milvus:v2.4.13
-milvusdb/milvus:v2.4.13-hotfix
+milvusdb/milvus:v2.4.12
+milvusdb/milvus:v2.4.12-gpu
+milvusdb/milvus:v2.4.13-gpu
