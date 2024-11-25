@@ -1,1 +1,7 @@
---platform=arm64 python:3.8.19
+--platform=arm64 python:3.8.18
+--platform=arm64 python:3.8.17
+--platform=arm64 python:3.8.16
+--platform=arm64 python:3.8.15
+--platform=arm64 python:3.8.14
+--platform=arm64 python:3.8.13
+--platform=arm64 python:3.8.12
