@@ -1,1 +1,1 @@
---platform=arm64 python:3.8-alpine
+--platform=arm64 python:3.8
