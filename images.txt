@@ -1,9 +1,4 @@
-container-registry.oracle.com/database/enterprise:19.3.0.0
-container-registry.oracle.com/database/enterprise:latest
-container-registry.oracle.com/database/enterprise:21.3.0.0
-container-registry.oracle.com/database/enterprise:19.19.0.0
-container-registry.oracle.com/database/enterprise:12.2.0.1
-container-registry.oracle.com/database/enterprise:12.2.0.1-slim
-container-registry.oracle.com/database/enterprise:12.1.0.2
-container-registry.oracle.com/database/express:21.3.0-xe
-container-registry.oracle.com/database/express:18.4.0-xe
+container-registry.oracle.com/database/rac:21.3.0.0
+container-registry.oracle.com/database/rac:19.3.0
+container-registry.oracle.com/database/enterprise_ru:19.25.0.0
+container-registry.oracle.com/database/enterprise_ru:21.16.0.0	
