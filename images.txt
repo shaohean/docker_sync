@@ -1,1 +1,1 @@
-drone/git
+moby/buildkit:buildx-stable-1
