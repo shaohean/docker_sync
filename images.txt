@@ -1,1 +1,1 @@
-quay.io/skopeo/stable:latest
+coredns/coredns
