@@ -1,1 +1,1 @@
-coredns/coredns
+releases-docker.jfrog.io/jfrog/artifactory-oss:latest
