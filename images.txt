@@ -1,3 +1,9 @@
+ubuntu:noble
+ubuntu:jammy
+ubuntu:focal
+ubuntu:bionic
+ubuntu:xenial
+ubuntu:trusty
 ubuntu:24.04
 ubuntu:22.04
 ubuntu:20.04
