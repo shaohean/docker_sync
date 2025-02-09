@@ -1,1 +1,1 @@
-jenkins/inbound-agent:latest
+rancher/rancher:2.6.9
