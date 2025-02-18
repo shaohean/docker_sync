@@ -1,1 +1,2 @@
---platform=arm64 nginx
+--platform=arm64 nginx:1.27.4-alpine
+--platform=arm64 nginx:1.26.3-alpine
