@@ -1,2 +1,2 @@
-bemp/llm:ASR-FunASR
---platform=arm64 bemp/llm:ASR-FunASR
+centos:8.10
+--platform=arm64 centos:8.10
