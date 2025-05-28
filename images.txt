@@ -1,2 +1,4 @@
-centos:8.10
---platform=arm64 centos:8.10
+centos:8
+--platform=arm64 centos:8
+centos:8.10.2405
+--platform=arm64 centos:8.10.2405
