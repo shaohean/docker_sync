@@ -1,4 +1,6 @@
-centos:8
---platform=arm64 centos:8
-centos:8.10.2405
---platform=arm64 centos:8.10.2405
+milvusdb/milvus:v2.4.15
+milvusdb/milvus:v2.4.22
+milvusdb/milvus:v2.4.23
+--platform=arm64 milvusdb/milvus:v2.4.15
+--platform=arm64 milvusdb/milvus:v2.4.22
+--platform=arm64 milvusdb/milvus:v2.4.23
