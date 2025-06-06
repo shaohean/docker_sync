@@ -1,6 +1,4 @@
-milvusdb/milvus:v2.4.15
-milvusdb/milvus:v2.4.22
-milvusdb/milvus:v2.4.23
---platform=arm64 milvusdb/milvus:v2.4.15
---platform=arm64 milvusdb/milvus:v2.4.22
---platform=arm64 milvusdb/milvus:v2.4.23
+heavrnl/nexus-terminal-frontend:latest
+heavrnl/nexus-terminal-backend:latest
+heavrnl/nexus-terminal-remote-gateway:latest
+guacamole/guacd:latest
