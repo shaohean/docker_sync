@@ -1,4 +1,2 @@
-heavrnl/nexus-terminal-frontend:latest
-heavrnl/nexus-terminal-backend:latest
-heavrnl/nexus-terminal-remote-gateway:latest
-guacamole/guacd:latest
+jenkins/jenkins:lts-slim-jdk21
+jenkins/jenkins:lts-slim-jdk17
