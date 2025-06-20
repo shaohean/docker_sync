@@ -1,1 +1,4 @@
-rabbitmq:latest
+rancher/coreos-kube-state-metrics:v1.9.7
+rancher/coreos-prometheus-operator:v0.39.0
+rancher/grafana-grafana:7.1.5
+rancher/mirrored-library-nginx:1.19.9-alpine
