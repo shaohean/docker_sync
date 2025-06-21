@@ -1,5 +1,1 @@
-rancher/coreos-prometheus-config-reloader:v0.39.0
-rancher/istio-kubectl:1.5.10
-rancher/jimmidyson-configmap-reload:v0.3.0
-rancher/prometheus-auth:v0.2.1
-rancher/prom-prometheus:v2.18.2
+kindest/node:v1.30.0
