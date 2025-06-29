@@ -1,2 +1,2 @@
-tonistiigi/binfmt
---platform=arm64 tonistiigi/binfmt
+tonistiigi/binfmt:qemu-v9.2.2-52
+--platform=arm64 tonistiigi/binfmt:qemu-v9.2.2-52
