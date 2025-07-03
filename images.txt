@@ -1,2 +1,1 @@
-tonistiigi/binfmt:qemu-v9.2.2-52
---platform=arm64 tonistiigi/binfmt:qemu-v9.2.2-52
+reg.docker.alibaba-inc.com/sfm-algs/processor-layout_analysis:20250116-nv
