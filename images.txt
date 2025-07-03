@@ -1,1 +1,1 @@
-reg.docker.alibaba-inc.com/sfm-algs/processor-layout_analysis:20250116-nv
+labring/kubernetes-docker:v1.28.0
