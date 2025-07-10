@@ -1,1 +1,1 @@
-rancher/rancher-webhook:v0.3.6
+python:3.7.10-slim
