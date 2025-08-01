@@ -1,6 +1,2 @@
-quay.io/cilium/cilium-envoy:v1.34.4-1753677767-266d5a01d1d55bd1d60148f991b98dac0390d363
-quay.io/cilium/cilium:v1.18.0
-quay.io/cilium/hubble-relay:v1.18.0
-quay.io/cilium/hubble-ui-backend:v0.13.2
-quay.io/cilium/hubble-ui:v0.13.2
-quay.io/cilium/operator-generic:v1.18.0
+quay.io/metallb/controller:v0.15.2
+quay.io/metallb/speaker:v0.15.2
