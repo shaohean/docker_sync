@@ -1,2 +1,8 @@
-registry.k8s.io/ingress-nginx/controller:v1.12.4
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
+--platform=arm64 python:3.10-alpine
+--platform=arm64 python:3.11-alpine
+--platform=arm64 python:3.12-alpine
+--platform=arm64 python:3.10
+--platform=arm64 python:3.11
+--platform=arm64 python:3.9
+--platform=arm64 python:3.8
+
