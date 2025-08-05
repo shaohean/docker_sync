@@ -1,8 +1,1 @@
---platform=arm64 python:3.10-alpine
---platform=arm64 python:3.11-alpine
---platform=arm64 python:3.12-alpine
---platform=arm64 python:3.10
---platform=arm64 python:3.11
---platform=arm64 python:3.9
---platform=arm64 python:3.8
-
+registry.k8s.io/metrics-server/metrics-server:v0.7.2
