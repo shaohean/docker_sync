@@ -1,8 +1,8 @@
 --platform=arm64 mysql:8.0.33
 --platform=arm64 rabbitmq:3.7.4
---platform=arm64 mongodb:3.6.3
 --platform=arm64 elasticsearch:7.9.0
 --platform=arm64 nginx:1.23.2
 --platform=arm64 redis:6.2.19
 --platform=arm64 nacos/nacos-server:1.4.2
 --platform=arm64 minio/minio:RELEASE.2022-10-24T18-35-07Z
+--platform=arm64 mongodb:3.6.3
