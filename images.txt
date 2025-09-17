@@ -1,1 +1,1 @@
-milvusdb/milvus:v2.6.1
+docker.elastic.co/elasticsearch/elasticsearch:8.15
