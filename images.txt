@@ -1,3 +1,6 @@
-calico/cni:v3.28.0
-calico/kube-controllers:v3.28.0
-calico/node:v3.28.0
+registry.k8s.io/sig-storage/csi-resizer:v1.8.0
+registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
+registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
+registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
+registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
+openebs/lvm-driver:1.4.0
