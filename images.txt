@@ -1,3 +1,2 @@
---platform=arm64 quay.io/coreos/etcd:v3.5.18
---platform=arm64 minio/minio:RELEASE.2024-05-28T17-19-04Z
---platform=arm64 milvusdb/milvus:v2.5.17
+--platform=arm64 labring/kubernetes-docker:v1.28.0
+--platform=arm64 labring/calico:v3.24.6
