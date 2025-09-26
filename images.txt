@@ -1,2 +1,1 @@
---platform=arm64 labring/kubernetes-docker:v1.28.0
---platform=arm64 labring/calico:v3.24.6
+--platform=arm64 labring/helm:v3.9.4
