@@ -1,4 +1,4 @@
---platform=arm64 tonistiigi/binfmt:master
---platform=arm64 tonistiigi/binfmt:latest
---platform=arm64 tonistiigi/binfmt:latest
+--platform=arm64 tonistiigi/binfmt:desktop-v10.0.4
+--platform=arm64 tonistiigi/binfmt:buildkit-v10.0.4
+--platform=arm64 tonistiigi/binfmt:qemu-v10.0.4
   
