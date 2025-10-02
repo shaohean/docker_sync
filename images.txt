@@ -1,1 +1,4 @@
---platform=arm64 debian
+--platform=arm64 tonistiigi/binfmt:master
+--platform=arm64 tonistiigi/binfmt:latest
+--platform=arm64 tonistiigi/binfmt:latest
+  
