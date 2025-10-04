@@ -1,2 +1,2 @@
 --platform=arm64 ascend-k8sdeviceplugin:v7.1.RC1
-  
+ccr.ccs.tencentyun.com/bk.io/cmdb-standalone:latest
