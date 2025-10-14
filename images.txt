@@ -4,7 +4,6 @@ jenkins/agent:jdk21
 jenkins/inbound-agent:jdk21
 jenkins/inbound-agent:jdk17
 jenkins/inbound-agent:jdk11
-jenkins/jnlp-agent-maven:windows-nanoserver-jdk11
 jenkins/jnlp-agent-maven:jdk11
 jenkins/jnlp-agent-jdk11:latest
 jenkins/jnlp-agent-docker:latest
