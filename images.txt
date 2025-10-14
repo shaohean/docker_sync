@@ -1,1 +1,6 @@
-nvcr.io/nvidia/tensorflow:23.10-tf2-py3
+jenkins/jnlp-agent-maven:windows-nanoserver-jdk11
+jenkins/jnlp-agent-maven:jdk11
+jenkins/jnlp-agent-jdk11:latest
+jenkins/jnlp-agent-docker:latest
+jenkins/jnlp-agent-python3:latest
+jenkins/jnlp-agent-node:latest
