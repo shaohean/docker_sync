@@ -1,11 +1,1 @@
-jenkins/agent:jdk11
-jenkins/agent:jdk17
-jenkins/agent:jdk21
-jenkins/inbound-agent:jdk21
-jenkins/inbound-agent:jdk17
-jenkins/inbound-agent:jdk11
-jenkins/jnlp-agent-maven:jdk11
-jenkins/jnlp-agent-jdk11:latest
-jenkins/jnlp-agent-docker:latest
-jenkins/jnlp-agent-python3:latest
-jenkins/jnlp-agent-node:latest
+--platform=arm64 rancher/rancher:v2.7.10
