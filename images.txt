@@ -1,1 +1,2 @@
-nvcr.io/nvidia/pytorch:23.08-py3
+rancher/rancher:v2.7.10
+rancher/rancher-agent:v2.7.10
