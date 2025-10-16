@@ -1,1 +1,1 @@
---platform=arm64 rancher/rancher:v2.7.10
+nvcr.io/nvidia/pytorch:23.08-py3
