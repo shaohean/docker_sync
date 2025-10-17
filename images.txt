@@ -1,2 +1,1 @@
-rancher/rancher:v2.7.10
-rancher/rancher-agent:v2.7.10
+owncloudci/drone-docker-buildx:4.0.0
