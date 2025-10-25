@@ -1,12 +1,1 @@
---platform=arm64 drone/drone:2.26.0
---platform=arm64 drone/drone-runner-docker:1.8.4
---platform=arm64 drone/cli:1.9
---platform=arm64 drone/drone-runner-kube:1.0.0-rc.5
---platform=arm64 drone/autoscaler:1.13.0
---platform=arm64 drone/git:latest
-drone/drone:2.26.0
-drone/drone-runner-docker:1.8.4
-drone/cli:1.9
-drone/drone-runner-kube:1.0.0-rc.5
-drone/autoscaler:1.13.0
-drone/git:latest
+registry.baidubce.com/paddlepaddle/paddle:3.2.0-gpu-cuda12.6-cudnn9.5-trt10.5
