@@ -1,2 +1,1 @@
-paddlepaddle/paddlex-genai-vllm-server
-paddlepaddle/paddle:3.2.0-gpu-cuda12.9-cudnn9.9
+ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddlex-genai-vllm-server
