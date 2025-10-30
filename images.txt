@@ -1,1 +1,4 @@
-ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddlex-genai-vllm-server
+--platform=arm64 redhat/ubi9:9.6
+--platform=arm64 redhat/ubi8:8.10
+redhat/ubi9:9.6
+redhat/ubi8:8.10
