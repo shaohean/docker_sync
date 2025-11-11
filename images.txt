@@ -1,4 +1,1 @@
---platform=arm64 redhat/ubi9:9.6
---platform=arm64 redhat/ubi8:8.10
-redhat/ubi9:9.6
-redhat/ubi8:8.10
+cr.weaviate.io/semitechnologies/weaviate:1.32.2
