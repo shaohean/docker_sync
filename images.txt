@@ -1,1 +1,6 @@
-cr.weaviate.io/semitechnologies/weaviate:1.32.2
+quay.io/cilium/cilium-envoy:v1.34.10-1761014632-c360e8557eb41011dfb5210f8fb53fed6c0b3222
+quay.io/cilium/cilium:v1.18.3
+quay.io/cilium/hubble-relay:v1.18.3
+quay.io/cilium/hubble-ui-backend:v0.13.3
+quay.io/cilium/hubble-ui:v0.13.3
+quay.io/cilium/operator-generic:v1.18.3
