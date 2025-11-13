@@ -1,2 +1,2 @@
 gitlab/gitlab-ee:18.4.2-ee.0
---platform=arm64 gitlab/gitlab-ee:18.4.2-ee.0
+continuumio/anaconda3:2022.10
