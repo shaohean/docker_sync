@@ -1,6 +1,2 @@
-quay.io/cilium/cilium-envoy:v1.34.10-1761014632-c360e8557eb41011dfb5210f8fb53fed6c0b3222
-quay.io/cilium/cilium:v1.18.3
-quay.io/cilium/hubble-relay:v1.18.3
-quay.io/cilium/hubble-ui-backend:v0.13.3
-quay.io/cilium/hubble-ui:v0.13.3
-quay.io/cilium/operator-generic:v1.18.3
+gitlab/gitlab-ee:18.4.2-ee.0
+--platform=arm64 gitlab/gitlab-ee:18.4.2-ee.0
