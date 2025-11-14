@@ -1,2 +1,2 @@
-gitlab/gitlab-ee:18.4.2-ee.0
-continuumio/anaconda3:2022.10
+nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu20.04
+nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
