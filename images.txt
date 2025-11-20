@@ -1,2 +1,2 @@
---platform=amd64 quay.io/honestbee/drone-kubernetes
---platform=arm64 quay.io/honestbee/drone-kubernetes
+--platform=amd64 cylera/drone-kubernetes
+--platform=arm64 cylera/drone-kubernetes
