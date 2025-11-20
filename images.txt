@@ -1,2 +1,2 @@
---platform=amd64 thegeeklab/drone-docker-buildx:24.1.3
---platform=arm64 thegeeklab/drone-docker-buildx:24.1.3
+--platform=amd64 quay.io/honestbee/drone-kubernetes
+--platform=arm64 quay.io/honestbee/drone-kubernetes
