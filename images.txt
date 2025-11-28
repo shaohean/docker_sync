@@ -1,3 +1,4 @@
-ghcr.io/oracle/oraclelinux9-instantclient:23
-ghcr.io/oracle/oraclelinux8-instantclient:21
-ghcr.io/oracle/oraclelinux7-instantclient:21
+ghcr.io/oracle/oraclelinux9-instantclient:21
+ghcr.io/oracle/oraclelinux9-instantclient:19
+ghcr.io/oracle/oraclelinux8-instantclient:19
+ghcr.io/oracle/oraclelinux7-instantclient:19
