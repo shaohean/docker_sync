@@ -1,3 +1,5 @@
 servicecomb/service-center:2.0.0
 servicecomb/service-center:1.2.0
+servicecomb/service-center
+servicecomb/scfrontend
 --platform=arm64 servicecomb/service-center:2.0.0
