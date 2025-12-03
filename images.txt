@@ -1,4 +1,2 @@
-rockylinux:8
-rockylinux:9
---platform=arm64 rockylinux:8
---platform=arm64 rockylinux:9
+--platform=arm64 alpine:latest
+--platform=arm64 alpine:3.20
