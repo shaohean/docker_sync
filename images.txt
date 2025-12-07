@@ -1,5 +1,4 @@
-apache/seatunnel:2.3.8
-apache/seatunnel:2.3.9
-apache/seatunnel:2.3.10
-apache/seatunnel:2.3.11
-apache/seatunnel:2.3.12
+ghcr.io/dimitri/pgloader:latest
+ghcr.io/dimitri/pgloader:3.6.7
+ghcr.io/dimitri/pgloader:3.6.8
+ghcr.io/dimitri/pgloader:3.6.9
