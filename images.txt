@@ -1,12 +1,5 @@
-postgres:10-alpine
-postgres:11-alpine
-postgres:12-alpine
-postgres:13-alpine
-postgres:14-alpine
-postgres:15-alpine
-postgres:16-alpine
-postgres:17-alpine
-postgres:17.7-alpine
-postgres:18-alpine
-postgres:18.1-alpine
-postgres:9.2-alpine
+apache/seatunnel:2.3.8
+apache/seatunnel:2.3.9
+apache/seatunnel:2.3.10
+apache/seatunnel:2.3.11
+apache/seatunnel:2.3.12
