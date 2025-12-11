@@ -1,4 +1,1 @@
-ghcr.io/dimitri/pgloader:latest
-ghcr.io/dimitri/pgloader:3.6.7
-ghcr.io/dimitri/pgloader:3.6.8
-ghcr.io/dimitri/pgloader:3.6.9
+ docker.n8n.io/n8nio/n8n
