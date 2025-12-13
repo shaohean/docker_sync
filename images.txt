@@ -1,1 +1,1 @@
-drone/placeholder:1
+drone/placeholder:latest
