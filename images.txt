@@ -1,4 +1,1 @@
-docker.n8n.io/n8nio/n8n:1.123.5
-docker.n8n.io/n8nio/n8n:1.122.5
-docker.n8n.io/n8nio/n8n:1.121.2
-docker.n8n.io/n8nio/n8n:1.120.4
+drone/placeholder:1
