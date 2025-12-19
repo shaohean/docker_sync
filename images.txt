@@ -4,3 +4,6 @@ node:24.0
 node:23.11
 node:22.8
 node:16.20.2
+node:18.20.5
+node:20.18.2
+node:20.19.2
