@@ -1,1 +1,6 @@
-drone/placeholder:latest
+node:lts-slim
+node:lts-alpine
+node:24.0
+node:23.11
+node:22.8
+node:16.20.2
