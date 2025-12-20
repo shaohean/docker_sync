@@ -1,8 +1,6 @@
-node:18.20.8
-node:19.9.0
-node:20.19.6
-node:21.7.3
-node:22.21.1
-node:23.11.1
-node:24.12.0
-node:25.2.1
+victoriametrics/victoria-metrics:v1.132.0
+victoriametrics/victoria-metrics:v1.131.0
+victoriametrics/victoria-metrics:v1.130.0
+victoriametrics/victoria-metrics:v1.129.0
+victoriametrics/victoria-metrics:v1.128.0
+victoriametrics/victoria-metrics:v1.127.0
