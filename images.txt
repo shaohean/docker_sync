@@ -1,6 +1,1 @@
-victoriametrics/victoria-metrics:v1.132.0
-victoriametrics/victoria-metrics:v1.131.0
-victoriametrics/victoria-metrics:v1.130.0
-victoriametrics/victoria-metrics:v1.129.0
-victoriametrics/victoria-metrics:v1.128.0
-victoriametrics/victoria-metrics:v1.127.0
+redhat/ubi9:9.7
