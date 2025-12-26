@@ -1,1 +1,1 @@
-redhat/ubi10:10.1
+openresty/openresty:alpine
