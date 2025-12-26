@@ -1,1 +1,1 @@
-redhat/ubi9:9.7
+redhat/ubi10:10.1
