@@ -1,2 +1,1 @@
-jumpserver/jms_all:v4.10.12
-jumpserver/jms_all:v4.10.11
+mysql
