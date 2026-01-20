@@ -1,5 +1,1 @@
-mysql:8.0.44
-mysql:8.0.43
-mysql:8.0.42
-mysql:8.0.41
-mysql:8.0.40
+quay.io/ascend/vllm-ascend:v0.11.0rc1
