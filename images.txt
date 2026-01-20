@@ -1,1 +1,1 @@
---platform=arm64 quay.io/ascend/vllm-ascend:v0.11.0rc1
+corentinth/it-tools:latest
