@@ -1,1 +1,1 @@
-quay.io/ascend/vllm-ascend:v0.11.0rc1
+--plaform=arm64 quay.io/ascend/vllm-ascend:v0.11.0rc1
