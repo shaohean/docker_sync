@@ -1,1 +1,1 @@
-openeuler/openeuler:22.03
+rancher/rancher-agent:v2.7.3
