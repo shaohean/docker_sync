@@ -1,1 +1,1 @@
-openclaw/openclaw:latest
+aquasec/trivy:0.69.1
