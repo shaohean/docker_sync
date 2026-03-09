@@ -1,13 +1,1 @@
-oceanbase/oceanbase-ce:4.3.5-lts
-oceanbase/seekdb:latest
-opengauss/opengauss:7.0.0-RC1
-opensearchproject/opensearch-dashboards:latest
-opensearchproject/opensearch:latest
-pgvector/pgvector:pg16
-postgres:15-alpine
-quay.io/coreos/etcd:v3.5.5
-redis:6-alpine
-semitechnologies/weaviate:1.27.0
-tensorchord/pgvecto-rs:pg16-v0.3.0
-ubuntu/squid:latest
-vastdata/vastbase-vector
+apache/tika:latest-full
