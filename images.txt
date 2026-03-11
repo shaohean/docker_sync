@@ -1,1 +1,5 @@
-milvusdb/milvus:v2.4.4
+rancher/mirrored-pause:3.6
+rancher/mirrored-pause:3.9
+pause:3.6
+pause:3.7
+pause:3.8
