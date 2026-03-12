@@ -1,3 +1,3 @@
-ghcr.io/flannel-io/flannel:v0.28.1
-ghcr.io/flannel-io/flannel-cni-plugin:v1.9.0-flannel1
-ghcr.io/flannel-io/flannel:v0.28.1
+--platform=arm64 ghcr.io/flannel-io/flannel:v0.28.1
+--platform=arm64 ghcr.io/flannel-io/flannel-cni-plugin:v1.9.0-flannel1
+--platform=arm64 ghcr.io/flannel-io/flannel:v0.28.1
