@@ -1,3 +1,2 @@
---platform=arm64 rancher/rancher-agent:v2.7.10
---platform=arm64 rancher/rancher-agent:v2.7.11
---platform=arm64 rancher/rancher-agent:v2.7.12
+--platform=arm64 agentscope/copaw:latest
+agentscope/copaw:latest
