@@ -1,2 +1,2 @@
---platform=arm64 agentscope/copaw:latest
+openwebui/open-webui
 agentscope/copaw:latest
