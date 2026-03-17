@@ -1,2 +1,11 @@
-openwebui/open-webui
-agentscope/copaw:latest
+--platform=arm64 apache/rocketmq:5.3.0
+--platform=arm64 apache/rocketmq:4.9.0
+--platform=arm64 apache/rocketmq-console-ng:1.0.0
+--platform=arm64 nginx:1.29.2-alpine
+--platform=arm64 redisinsight
+--platform=arm64 servicecomb/kie:v0.2.0
+--platform=arm64 servicecomb/scfrontend
+--platform=arm64 servicecomb/service-center
+--platform=arm64 skywalking-ui:8.5.0
+--platform=arm64 redis:7.4.2
+--platform=arm64 skywalking8-oap:8.5.0-es7_20230422
