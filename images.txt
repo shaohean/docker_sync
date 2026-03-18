@@ -1,5 +1,1 @@
---platform=arm64 redis/redisinsight
---platform=arm64 skywalking-ui
---platform=arm64 apache/rocketmq-console
---platform=arm64 skywalking8-oap:8.5.0-es7_20230422
---platform=arm64 apache/rocketmq-console-ng:1.0.0
+eas-registry-vpc.cn-hangzhou.cr.aliyuncs.com/pai-eas/sglang:v0.5.4
