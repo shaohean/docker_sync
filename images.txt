@@ -1,1 +1,1 @@
-eas-registry-vpc.cn-hangzhou.cr.aliyuncs.com/pai-eas/sglang:v0.5.4
+arthub-registry.cn-hangzhou.cr.aliyuncs.com/yunxiao-paas/lingma-model_ppu:v2025-09-16-21-44-49-fc59cb86-union-stable
