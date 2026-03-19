@@ -1,1 +1,1 @@
-coze/coze
+--platform=arm64 servicecomb/kie
