@@ -1,1 +1,1 @@
-vllm/vllm-openai
+redislabs/redisinsight
