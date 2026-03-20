@@ -1,1 +1,6 @@
---platform=arm64 apache/rocketmq:5.3.0
+--platform=arm64 cilium/cilium-envoy:v1.35.9-1770979049-232ed4a26881e4ab4f766f251f258ed424fff663
+--platform=arm64 cilium/cilium:v1.19.1
+--platform=arm64 cilium/hubble-relay:v1.19.1
+--platform=arm64 cilium/hubble-ui-backend:v0.13.3
+--platform=arm64 cilium/hubble-ui:v0.13.3
+--platform=arm64 cilium/operator-generic:v1.19.1
