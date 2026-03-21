@@ -1,1 +1,1 @@
---platform=arm64 cilium/cilium-envoy:fd3866831d8f85e27120f34d98133343fc9c4e0e
+--platform=arm64 apacherocketmq/rocketmq-dashboard:latest
