@@ -1,2 +1,2 @@
---platform=arm64 apacherocketmq/rocketmq-dashboard:latest
---platform=arm64 apache/rocketmq:latest
+--platform=arm64 apacherocketmq/rocketmq-dashboard:2.1.0
+--platform=arm64 apache/rocketmq:5.4.0
