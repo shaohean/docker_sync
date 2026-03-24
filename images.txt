@@ -1,1 +1,2 @@
---platform=arm64 ubuntu:24.04
+--platform=arm64 ubuntu:24.03
+--platform=arm64 ubuntu:noble-20260217
