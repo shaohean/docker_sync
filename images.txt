@@ -1,2 +1,1 @@
---platform=arm64 quay.io/coreos/etcd:v3.6.0
---platform=arm64 quay.io/coreos/etcd:v3.4.22
+--platform=arm64 ubuntu:24.04
