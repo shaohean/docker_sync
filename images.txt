@@ -1,1 +1,1 @@
---plarform=arm64 python:3.12.13-slim
+--platform=arm64 python:3.12.13-slim
