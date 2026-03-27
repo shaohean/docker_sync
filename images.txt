@@ -1,1 +1,5 @@
---platform=arm64 python:3.12.13-slim
+--platform=arm64 alpine:3.19.0
+--platform=arm64 alpine:3.20.0
+--platform=arm64 alpine:3.21.0
+--platform=arm64 alpine:3.22.0
+--platform=arm64 alpine:3.23.0
