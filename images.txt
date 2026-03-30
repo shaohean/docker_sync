@@ -1,3 +1,2 @@
-redislabs/redisinsight
---platform=arm64 redislabs/redisinsight
-
+redislabs/redisinsight:3.2.0
+redislabs/redisinsight:3.2.0-arm64
