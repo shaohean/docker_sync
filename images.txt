@@ -1,2 +1,2 @@
-registry.k8s.io/external-dns/external-dns:v0.13.4
---platform=arm64 registry.k8s.io/external-dns/external-dns:v0.13.4
+python:3.12-bullseye
+--platform=arm64 python:3.12-bullseye
