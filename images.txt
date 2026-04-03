@@ -1,1 +1,2 @@
-docker:24.0-cli
+docker:28.5.0-cli
+docker:29.2.0-cli
