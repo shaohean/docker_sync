@@ -1,1 +1,2 @@
-woodpeckerci/plugin-docker-buildx
+owncloudci/drone-docker-buildx:v4.0.0
+woodpeckerci/plugin-docker-buildx:6.0.4
