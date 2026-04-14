@@ -1,1 +1,1 @@
-infisical/infisical
+docker:18.09-dind
