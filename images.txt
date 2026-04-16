@@ -1,1 +1,2 @@
-mineru:latest
+vllm/vllm-openai
+ghrc.io/open-webui/open-webui
