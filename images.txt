@@ -1,2 +1,1 @@
-vllm/vllm-openai
-ghrc.io/open-webui/open-webui
+nvidia/cuda:12.6.0-base-ubuntu24.04
