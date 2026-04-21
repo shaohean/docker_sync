@@ -24,7 +24,7 @@ jobs:
     - name: Install Skopeo
       run: |
         sudo apt-get update
-        sudo apt-get install -y skopeo
+        sudo apt-get install -y skopeo jq
 
     - name: Login to Aliyun Registry
       run: |
@@ -69,7 +69,7 @@ jobs:
                 # 其他镜像，如 kasmweb/nginx:1.25.3
                 source_image="docker.io/$source_image"
             fi
-
+            skopeo list-tags docker://${source_image}
             # 获取镜像名:版本号
             image_name_tag=$(echo "$source_image" | awk -F'/' '{print $NF}')
             # 获取命名空间
