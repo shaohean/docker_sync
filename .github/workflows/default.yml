@@ -62,6 +62,9 @@ jobs:
             elif [[ "$source_image" == "docker.io/"* ]]; then
                 # 已有 docker.io 前缀，保持不变
                 source_image="$source_image"
+            elif [[ "$source_image" == "ghcr.io/"* ]]; then
+                # 已有 docker.io 前缀，保持不变
+                source_image="$source_image"
             else
                 # 其他镜像，如 kasmweb/nginx:1.25.3
                 source_image="docker.io/$source_image"
