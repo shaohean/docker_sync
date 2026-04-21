@@ -1,12 +1,1 @@
---platform=arm64 openeuler/openeuler:24.03-lts
---platform=arm64 openeuler/openeuler:24.03-lts-sp2
---platform=arm64 openeuler/openeuler:22.03-lts-sp3
---platform=arm64 openeuler/openeuler:22.03-lts
---platform=arm64 openeuler/openeuler:20.03-lts-sp4
---platform=arm64 openeuler/openeuler:20.03-lts
-openeuler/openeuler:24.03-lts
-openeuler/openeuler:24.03-lts-sp2
-openeuler/openeuler:22.03-lts-sp3
-openeuler/openeuler:22.03-lts
-openeuler/openeuler:20.03-lts-sp4
-openeuler/openeuler:20.03-lts
+ghcr.io/anomalyco/opencode
