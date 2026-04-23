@@ -1,1 +1,1 @@
-node
+node:24-alpine
