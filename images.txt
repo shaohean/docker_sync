@@ -1,1 +1,2 @@
-milvusdb/milvus:v2.6.14
+nodejs
+npm
