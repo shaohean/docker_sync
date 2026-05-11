@@ -1,1 +1,1 @@
-node:18-alpine
+platform=arm64 redis:8.2.3
