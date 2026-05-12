@@ -1,1 +1,5 @@
 kylinv10/kylin:b09
+opstool/kylin:v10sp3
+hxsoong/kylin:v10-sp3
+macrosan/kylin:v10-sp3
+macrosan/kylin:v10-sp3-2403
