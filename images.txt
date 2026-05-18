@@ -1,6 +1,7 @@
-node:20-alpine
-node:22-alpine
-node:24-alpine 
+platform=arm64 node:20-alpine
+platform=arm64 node:20-alpine
+platform=arm64 node:22-alpine
+platform=arm64 node:24-alpine 
 kylinv10/kylin:b09
 opstool/kylin:v10sp3
 hxsoong/kylin:v10-sp3
