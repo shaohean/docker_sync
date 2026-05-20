@@ -1,9 +1,2 @@
---platform=arm64 node:20-alpine
---platform=arm64 node:20-alpine
---platform=arm64 node:22-alpine
---platform=arm64 node:24-alpine 
-kylinv10/kylin:b09
-opstool/kylin:v10sp3
-hxsoong/kylin:v10-sp3
-macrosan/kylin:v10-sp3
-macrosan/kylin:v10-sp3-2403
+--platform=arm64 nginx:1.24
+
