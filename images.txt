@@ -1,1 +1,2 @@
-dorowu/ubuntu-desktop-lxde-vnc
+qdrant/qdrant
+xprobe/xinference
