@@ -41,7 +41,7 @@ jobs:
         while IFS= read -r line || [ -n "$line" ]; do
             # 忽略空行与注释
             [[ -z "$line" ]] && continue
-            if echo "$line" | grep -q '^\s*#'; then
+            if [[ "$line" =~ ^[[:space:]]*# ]]; then
                 continue
             fi
 
@@ -50,41 +50,35 @@ jobs:
             echo "=========================================="
 
             # 解析镜像信息
-            source_image=$(echo "$line" | awk '{print $NF}')
+            source_image="${line##* }"
 
             # 处理 --platform 参数
-            platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
+            if [[ "$line" =~ --platform[[:space:]=]([^[:space:]]+) ]]; then
+                platform="${BASH_REMATCH[1]}"
+            else
+                platform=""
+            fi
 
             # 判断镜像来源，自动补全 registry 前缀
-            registry_part=$(echo "$source_image" | cut -d'/' -f1)
+            registry_part="${source_image%%/*}"
             if [[ "$source_image" != *"/"* ]]; then
                 # 无命名空间的镜像，如 alpine:3.19
                 source_image="docker.io/library/$source_image"
             elif [[ "$registry_part" == *"."* ]] || [[ "$registry_part" == *":"* ]]; then
-                # 第一个 / 前包含 . 或 :，说明是 registry 域名（如 registry.k8s.io、ghcr.io:5000）
-                source_image="$source_image"
-            elif [[ "$source_image" == "docker.io/"* ]]; then
-                # 已有 docker.io 前缀，保持不变
-                source_image="$source_image"
-            elif [[ "$source_image" == "ghcr.io/"* ]]; then
-                # 已有 docker.io 前缀，保持不变
-                source_image="$source_image"
+                # 第一个 / 前包含 . 或 :，说明是 registry 域名（如 registry.k8s.io、ghcr.io:5000），保持不变
+                :
             else
                 # Docker Hub 带命名空间的镜像，如 kasmweb/nginx:1.25.3
                 source_image="docker.io/$source_image"
             fi
             skopeo list-tags docker://${source_image}
             # 获取镜像名:版本号
-            image_name_tag=$(echo "$source_image" | awk -F'/' '{print $NF}')
-            # 获取命名空间
-            name_space=$(echo "$source_image" | awk -F'/' '{if (NF==4) print $3; else if (NF==3) print $2; else print "library"}')
-            # 获取镜像名
-            image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
+            image_name_tag="${source_image##*/}"
 
             # 构建 skopeo copy 参数
             copy_args="--retry-times 3"
             if [ -n "$platform" ]; then
-                copy_args="$copy_args --override-arch $(echo $platform | cut -d'/' -f1)"
+                copy_args="$copy_args --override-arch ${platform%%/*}"
                 platform_prefix="-${platform//\//_}"
             else
                 platform_prefix=""
