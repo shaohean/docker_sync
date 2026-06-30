@@ -55,10 +55,14 @@ jobs:
             # 处理 --platform 参数
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
 
-            # 判断是否为 docker.io 镜像，自动补全 registry 前缀
+            # 判断镜像来源，自动补全 registry 前缀
+            registry_part=$(echo "$source_image" | cut -d'/' -f1)
             if [[ "$source_image" != *"/"* ]]; then
-                # 无命名空间的镜像，如 python:3.14
+                # 无命名空间的镜像，如 alpine:3.19
                 source_image="docker.io/library/$source_image"
+            elif [[ "$registry_part" == *"."* ]] || [[ "$registry_part" == *":"* ]]; then
+                # 第一个 / 前包含 . 或 :，说明是 registry 域名（如 registry.k8s.io、ghcr.io:5000）
+                source_image="$source_image"
             elif [[ "$source_image" == "docker.io/"* ]]; then
                 # 已有 docker.io 前缀，保持不变
                 source_image="$source_image"
@@ -66,7 +70,7 @@ jobs:
                 # 已有 docker.io 前缀，保持不变
                 source_image="$source_image"
             else
-                # 其他镜像，如 kasmweb/nginx:1.25.3
+                # Docker Hub 带命名空间的镜像，如 kasmweb/nginx:1.25.3
                 source_image="docker.io/$source_image"
             fi
             skopeo list-tags docker://${source_image}
