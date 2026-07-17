@@ -1,1 +1,1 @@
---platform=arm64 python:3.11-slim
+--platform=arm64 python:3.10.12-slim
