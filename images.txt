@@ -1,3 +1,1 @@
---platform=arm64 redhat/ubi9:9.7
---platform=arm64 redhat/ubi9:9.8
---platform=arm64 redhat/ubi9:9.9
+nacos/nacos-server:v3.2.1-slim
