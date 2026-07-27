@@ -1,1 +1,4 @@
-python:3.12.13
+mongo:5.0.32-focal
+clickhouse/clickhouse-server:26.1-alpine
+docker.clickhouse.com/clickhouse/clickstack-otel-collector:2
+docker.hyperdx.io/hyperdx/hyperdx:2
