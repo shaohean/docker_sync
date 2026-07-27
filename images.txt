@@ -1,2 +1,1 @@
-redhat/ubi9:9.8
-redhat/ubi9:9.7
+python:3.12.14
