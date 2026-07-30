@@ -1,2 +1,2 @@
-docker.clickhouse.com/clickhouse/clickstack-otel-collector:2
-docker.hyperdx.io/hyperdx/hyperdx:2
+nacos/nacos-server:v3.2.3-slim
+nacos/nacos-server:v3.2.2-slim
