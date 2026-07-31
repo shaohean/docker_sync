@@ -1,2 +1,1 @@
-nacos/nacos-server:v3.2.3-slim
-nacos/nacos-server:v3.2.2-slim
+python:3.14.6-slim
