@@ -1,1 +1,1 @@
-python:3.14.6-slim
+gvenzl/oracle-xe:21.3.0-slim
