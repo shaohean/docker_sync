@@ -1,2 +1,2 @@
-otel/opentelemetry-collector-contrib:latest
-grafana/beyla:latest
+otel/opentelemetry-collector-contrib:0.158.0
+grafana/beyla:3.32.0
