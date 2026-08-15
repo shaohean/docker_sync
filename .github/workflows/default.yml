@@ -71,7 +71,29 @@ jobs:
                 # Docker Hub 带命名空间的镜像，如 kasmweb/nginx:1.25.3
                 source_image="docker.io/$source_image"
             fi
-            skopeo list-tags docker://${source_image}
+            # 列出源镜像仓库可用 tag，便于确认具体版本（避免只拿到 latest）
+            repo_addr="$source_image"
+            current_tag=""
+            if [[ "$source_image" =~ :([^/]+)$ ]]; then
+                current_tag="${BASH_REMATCH[1]}"
+                repo_addr="${source_image%:$current_tag}"
+            fi
+            echo "Available tags for $repo_addr:"
+            tag_list=$(skopeo list-tags "docker://${repo_addr}" 2>/dev/null | jq -r '.Tags[]?' 2>/dev/null | sort -V)
+            if [ -n "$tag_list" ]; then
+                echo "$tag_list" | while IFS= read -r t; do
+                    if [ "$t" = "$current_tag" ]; then
+                        echo "  ▶ $t  ← current"
+                    else
+                        echo "    $t"
+                    fi
+                done
+                if [ "$current_tag" = "latest" ]; then
+                    echo "  提示: 当前同步 latest，建议从上方列表选择具体版本号以获得稳定镜像。"
+                fi
+            else
+                echo "  (无法获取 tag 列表)"
+            fi
             # 获取镜像名:版本号
             image_name_tag="${source_image##*/}"
 
