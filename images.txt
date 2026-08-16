@@ -1,2 +1,1 @@
-otel/opentelemetry-collector-contrib:0.158.0
-grafana/beyla:3.32.0
+gvenzl/oracle-xe:21.3.0-slim
