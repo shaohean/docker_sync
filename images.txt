@@ -1,1 +1,1 @@
-harbor.iluvatar.com.cn:10443/saas/mr-bi150-4.4.0-aarch64-ubuntu20.04-py3.10-poc-vllm-omni:v1.1-ty1100-4.4.0
+--platform=arm64 cucker/get_command_4_run_container:latest
