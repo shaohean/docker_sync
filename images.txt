@@ -1,1 +1,1 @@
---platform=arm64 cucker/get_command_4_run_container:latest
+otel/opentelemetry-collector-contrib:0.123.0
