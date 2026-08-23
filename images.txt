@@ -1,1 +1,1 @@
-otel/opentelemetry-collector-contrib:0.123.0
+ghcr.io/silenceper/mcp-k8s:latest
