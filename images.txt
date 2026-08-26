@@ -1,5 +1,5 @@
-peta/peta-core:latest
-peta/peta-console:latest
-postgres:16-alpine
-petaio/peta-auth:latest
 cloudflare/cloudflared:latest
+petaio/peta-auth:latest      
+petaio/peta-console:latest   
+petaio/peta-core:latest      
+postgres:16-alpine    
