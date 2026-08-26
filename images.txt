@@ -1,4 +1,3 @@
-cloudflare/cloudflared:latest
 petaio/peta-auth:latest
 petaio/peta-console:latest
 petaio/peta-core:latest
