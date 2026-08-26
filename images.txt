@@ -1,4 +1,1 @@
-petaio/peta-auth:latest
-petaio/peta-console:latest
-petaio/peta-core:latest
-postgres:16-alpine
+ghcr.io/dunialabs/mcp-servers/rest-gateway:latest
