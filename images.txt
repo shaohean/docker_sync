@@ -1,1 +1,8 @@
-ghcr.io/dunialabs/mcp-servers/rest-gateway:latest
+rancher/rancher:v2.15.1
+rancher/rancher:v2.16.0
+rancher/rancher:v2.14.3
+rancher/rancher:v2.13.3
+rancher/rancher:v2.12.3
+rancher/rancher:v2.11.3
+rancher/rancher:v2.10.3
+rancher/rancher:v2.9.3
