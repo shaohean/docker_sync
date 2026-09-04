@@ -1,2 +1,1 @@
-nacos/nacos-server:v3.0.3
-nacos/nacos-server:latest
+nacos/nacos-mcp-router:latest
