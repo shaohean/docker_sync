@@ -1,1 +1,2 @@
-apache/skywalking-java-agent:8.7.0-alpine
+apache/skywalking-java-agent:8.16.0-java8
+apache/skywalking-java-agent:9.7.0-java8
