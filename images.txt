@@ -1,2 +1,2 @@
-python:3.12-slim-bookworm
---platform=arm64 python:3.12-slim-bookworm
+nacos/nacos-server:v3.0.3
+nacos/nacos-server:latest
