@@ -1,1 +1,1 @@
-otel/otel-javaagent
+otel/opentelemetry-collector-contrib:0.160.0
