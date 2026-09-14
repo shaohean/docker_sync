@@ -1,2 +1,2 @@
-quay.io/ascend/vllm-ascend:v0.23.0
---platform=arm64 quay.io/ascend/vllm-ascend:v0.23.0
+quay.io/ascend/vllm-ascend:v0.26.0rc1
+--platform=arm64 quay.io/ascend/vllm-ascend:v0.26.0rc1
