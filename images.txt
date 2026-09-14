@@ -1,1 +1,2 @@
-bytebase/bytebase:3.22.1
+quay.io/ascend/vllm-ascend:v0.23.0
+--platform=arm64 quay.io/ascend/vllm-ascend:v0.23.0
