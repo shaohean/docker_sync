@@ -1,6 +1,1 @@
-quay.io/ascend/vllm-ascend:v0.26.0rc1
---platform=arm64 quay.io/ascend/vllm-ascend:v0.18.0
---platform=arm64 quay.io/ascend/vllm-ascend:v0.13.0
---platform=arm64 quay.io/ascend/vllm-ascend:v0.11.0
---platform=arm64 quay.io/ascend/vllm-ascend:v0.9.1
---platform=arm64 quay.io/ascend/vllm-ascend:v0.7.3
+public.ecr.aws/gravitational/teleport-ent-distroless-debug:18.11.0
