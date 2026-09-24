@@ -1,1 +1,1 @@
-neo4j:5.26.0
+ghcr.io/containers/kubernetes-mcp-server
