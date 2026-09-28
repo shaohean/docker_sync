@@ -1,1 +1,1 @@
-bytebase/dbhub
+bytebase/dbhub:1.3.1
