@@ -1,6 +1,6 @@
-rancher/rancher:v2.13.10
-rancher/rancher-agent:v2.13.10
-rancher/rancher-webhook:v2.13.10
-rancher/rancher:v2.12.14
-rancher/rancher-agent:v2.12.14
-rancher/rancher-webhook:v2.12.14
+rancher/rancher:v2.13.3
+rancher/rancher-agent:v2.13.3
+rancher/rancher-webhook:v2.13.3
+rancher/rancher:v2.12.3
+rancher/rancher-agent:v2.12.3
+rancher/rancher-webhook:v2.12.3
