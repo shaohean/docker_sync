@@ -1,6 +1,4 @@
-rancher/rancher:v2.13.3
-rancher/rancher-agent:v2.13.3
-rancher/rancher-webhook:v2.13.3
-rancher/rancher:v2.12.3
-rancher/rancher-agent:v2.12.3
-rancher/rancher-webhook:v2.12.3
+--platform=arm64 rancher/rancher:v2.13.3
+--platform=arm64 rancher/rancher-agent:v2.13.3
+--platform=arm64 rancher/rancher:v2.12.3
+--platform=arm64 rancher/rancher-agent:v2.12.3
