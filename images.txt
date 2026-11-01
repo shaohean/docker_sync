@@ -1,1 +1,14 @@
-rancher/mirrored-pause:3.6
+--platform=arm64  rancher/mirrored-pause:3.6
+--platform=arm64  rancher/mirrored-coredns-coredns:1.12.3
+--platform=arm64  rancher/shell:v0.6.2
+--platform=arm64  rancher/shell:v0.3.0
+--platform=arm64  rancher/fleet:v0.14.3
+--platform=arm64  rancher/fleet-agent:v0.14.3
+--platform=arm64  rancher/rancher-webhook:v0.9.3
+--platform=arm64  rancher/remotedialer-proxy:v0.6.0
+--platform=arm64  rancher/cluster-api-controller:v1.10.6
+--platform=arm64  rancher/turtles:v0.25.4
+--platform=arm64  rancher/system-upgrade-controller:v0.17.0
+--platform=arm64  rancher/kubectl:v1.34.1
+--platform=arm64  rancher/kuberlr-kubectl:v5.0.0
+--platform=arm64  rancher/kuberlr-kubectl:v6.0.0
