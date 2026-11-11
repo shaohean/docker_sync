@@ -1,4 +1,4 @@
 langgenius/dify-knowledge-fs-api:deploy-konwledge
 myscale/myscaledb:1.6.4
 vastdata/vastbase-vector
-postgres:15-alpine
+semitechnologies/weaviate:1.39.13
