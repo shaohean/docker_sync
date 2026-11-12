@@ -1,3 +1,5 @@
+rockylinux/rockylinux:9.8
+rockylinux/rockylinux:9.8-ubi
 redis:8.2.3
 minio/minio:RELEASE.2025-10-15
 postgres:18.6
