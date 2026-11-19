@@ -1,1 +1,2 @@
-dimitri/pgloader:latest
+--platform nginx:1.31.9
+--platform nginx:1.30.9
