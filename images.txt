@@ -1,1 +1,2 @@
-actiontech/sqle-ce:4.2609.0
+milvusdb/milvus:v3.0.6
+milvusdb/milvus:master-20261123-f81b4bca
